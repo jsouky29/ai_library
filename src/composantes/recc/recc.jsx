@@ -137,8 +137,8 @@ function Recc() {
                                         <ListGroup.Item><b>Copies restantes: </b> {book.copies}</ListGroup.Item>
                                     </ListGroup>
                                     <Card.Body>
-                                        <Link to={`/book/${book._id}`} className="btn btn-outline btn-primary mr-4">Voir les Details</Link>
-                                        <Card.Link className="btn btn-outline btn-primary" href="#" onClick={() => handleBorrow(book._id)}>Emprunter</Card.Link>
+                                        <Link to={`/book/${book._id}`} className="btn btn-outline-primary mr-4">Voir les Details</Link>
+                                        <Card.Link className="btn btn-outline-primary" href="#" onClick={() => handleBorrow(book._id)}>Emprunter</Card.Link>
                                     </Card.Body>
                                 </Card>
                             </motion.div>
